@@ -28,7 +28,7 @@ class DrawerDemo extends React.Component {
             size: 250,
             direction: 'right',
             zIndex: 101,
-            transition: 'width .3s ease-out,height .3s ease',
+            transition: 'all .3s ease',
         }
 
         return (

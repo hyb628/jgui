@@ -8,7 +8,7 @@ title: 所有组件
 ````jsx
 import { LocaleProvider, Pagination, DatePicker, TimePicker, Calendar,
          Popconfirm, Table, Modal, Button, Select, Transfer, Radio } from 'jgui';
-import enUS from 'jgui/lib/locale-provider/en_US';
+import zhTW from 'jgui/lib/locale-provider/zh_TW';
 const Option = Select.Option;
 const RangePicker = DatePicker.RangePicker;
 
@@ -56,8 +56,7 @@ const Page = React.createClass({
         </div>
         <div className="example">
           <Select showSearch style={{ width: 200 }}>
-            <Option value="jack">jack</Option>
-            <Option value="lucy">lucy</Option>
+           
           </Select>
           <DatePicker />
           <TimePicker />
@@ -97,7 +96,7 @@ const Page = React.createClass({
 const App = React.createClass({
   getInitialState() {
     return {
-      locale: enUS,
+      locale: zhTW,
     };
   },
   changeLocale(e) {
@@ -108,8 +107,8 @@ const App = React.createClass({
       <div>
         <div className="change-locale">
           <span style={{ marginRight: 16 }}>Change locale of components: </span>
-          <Radio.Group defaultValue={enUS} onChange={this.changeLocale}>
-            <Radio.Button key="en" value={enUS}>English</Radio.Button>
+          <Radio.Group defaultValue={zhTW} onChange={this.changeLocale}>
+            <Radio.Button key="tw" value={zhTW}>繁體</Radio.Button>
             <Radio.Button key="cn">中文</Radio.Button>
           </Radio.Group>
         </div>

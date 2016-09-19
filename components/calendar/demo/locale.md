@@ -15,7 +15,7 @@ To set the properties like time zone, language and etc. en_US, zh_CN are support
 
 ````jsx
 import { Calendar } from 'jgui';
-import enUS from 'jgui/lib/calendar/locale/en_US';
+import enUS from 'jgui/lib/calendar/locale/zh_TW';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

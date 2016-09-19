@@ -14,8 +14,10 @@ export function changeConfirmLocale(newLocale) {
   } else {
     runtimeLocale = assign({}, defaultLocale);
   }
+  console.log('runtimeLocaleruntimeLocale2',runtimeLocale)
 }
 
 export function getConfirmLocale() {
+  console.log('runtimeLocaleruntimeLocale',runtimeLocale)
   return runtimeLocale;
 }

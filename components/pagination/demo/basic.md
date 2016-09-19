@@ -9,6 +9,6 @@ title: 基本
 import { Pagination } from 'jgui';
 
 ReactDOM.render(
-  <Pagination defaultCurrent={1} total={50} />,
+  <Pagination defaultCurrent={1} total={50}/>,
  mountNode);
 ````

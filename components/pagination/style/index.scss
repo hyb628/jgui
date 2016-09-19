@@ -37,6 +37,7 @@ $pagination-prefix-cls: jgui-pagination;
     background-color: #fff;
     margin-right: 8px;
     font-family: Arial;
+    user-select: none;
 
     a {
       text-decoration: none;
@@ -131,7 +132,7 @@ $pagination-prefix-cls: jgui-pagination;
 
     a {
       color: #666;
-
+      user-select: none;
       &:after {
         @include iconfont-size-under-12px(8px);
         display: block;

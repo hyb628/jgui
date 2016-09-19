@@ -14,11 +14,11 @@ LocaleProvider 使用 React 的 [context](https://facebook.github.io/react/docs/
 
 
 ```jsx
-import enUS from 'jgui/lib/locale-provider/en_US';
+import zhTW from 'jgui/lib/locale-provider/zh_TW';
 
 ...
 
-return <LocaleProvider locale={enUS}><App /></LocaleProvider>;
+return <LocaleProvider locale={zhTW}><App /></LocaleProvider>;
 ```
 
 ### Add a language

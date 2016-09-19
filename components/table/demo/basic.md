@@ -7,6 +7,7 @@ title: 基本用法
 
 ````jsx
 import { Table, Icon } from 'jgui';
+import zhTW from 'jgui/lib/locale-provider/zh_TW';
 
 const columns = [{
   title: '姓名',

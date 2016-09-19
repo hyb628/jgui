@@ -1,12 +1,12 @@
 import React from 'react';
-import RcPagination from 'rc-pagination';
+import RcPagination from './rc-pagination/src/index';
 import Select from '../select';
 import MiniSelect from './MiniSelect';
-import zhCN from './locale/zh_CN';
+import zhTW from './locale/zh_TW';
 
 export default class Pagination extends React.Component {
   static defaultProps = {
-    locale: zhCN,
+    locale: zhTW,
     className: '',
     prefixCls: 'jgui-pagination',
   }
